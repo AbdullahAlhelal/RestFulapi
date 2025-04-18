@@ -90,7 +90,7 @@ namespace Win32_API_s
             string wallpaperPath = @"C:\pics\newpic.jpg";
 
             // Set the wallpaper
-            SetWallpaper(wallpaperPath);
+            //SetWallpaper(wallpaperPath);
             Console.ReadKey();
 
                 if ( GetSystemPowerStatus(out SYSTEM_POWER_STATUS status) )

@@ -1,0 +1,7 @@
+D:\Trraining c#\Api\Restful api\Win32 API's\bin\Debug\Win32 API's.exe.config
+D:\Trraining c#\Api\Restful api\Win32 API's\bin\Debug\Win32 API's.exe
+D:\Trraining c#\Api\Restful api\Win32 API's\bin\Debug\Win32 API's.pdb
+D:\Trraining c#\Api\Restful api\Win32 API's\obj\Debug\Win32 API's.csproj.AssemblyReference.cache
+D:\Trraining c#\Api\Restful api\Win32 API's\obj\Debug\Win32 API's.csproj.CoreCompileInputs.cache
+D:\Trraining c#\Api\Restful api\Win32 API's\obj\Debug\Win32 API's.exe
+D:\Trraining c#\Api\Restful api\Win32 API's\obj\Debug\Win32 API's.pdb

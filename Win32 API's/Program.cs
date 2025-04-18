@@ -28,7 +28,21 @@ namespace Win32_API_s
             SystemParametersInfo(SPI_SETDESKWALLPAPER , 0 , path , SPIF_UPDATEINIFILE | SPIF_SENDCHANGE);
             Console.WriteLine("Wallpaper changed successfully!");
         }
-     
+
+        /// <summary>
+        /// Get Screen Resolution
+        /// </summary>
+        [DllImport("user32.dll")]
+        static extern int GetSystemMetrics(int nIndex);
+        static void GetScreenResolution()
+        {
+            int screenWidth = GetSystemMetrics(0);  // SM_CXSCREEN = 0
+            int screenHeight = GetSystemMetrics(1); // SM_CYSCREEN = 1
+
+            Console.WriteLine("Screen Width: {0}, Screen Height: {1}" , screenWidth , screenHeight);
+        }
+
+
         static void Main()
         {
             // The path to the wallpaper image

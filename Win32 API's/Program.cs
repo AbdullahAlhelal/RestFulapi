@@ -83,8 +83,12 @@ namespace Win32_API_s
             } 
         }
 
+        // Import MessageBox function from user32.dll
+        [DllImport("user32.dll" , CharSet = CharSet.Unicode , SetLastError = true)]
+        static extern int MessageBox(IntPtr hWnd , String text , String caption , int type);
 
-            static void Main()
+
+        static void Main()
         {
             // The path to the wallpaper image
             string wallpaperPath = @"C:\pics\newpic.jpg";
@@ -107,6 +111,8 @@ namespace Win32_API_s
                     Console.WriteLine("Unable to get battery status.");
                 }
 
-            }
+            MessageBox(IntPtr.Zero , "Hello, World!" , "My Message Box" , 0);
+
+        }
     }
 }

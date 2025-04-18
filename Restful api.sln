@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restful api", "Restful api\Restful api.csproj", "{479AF4AF-204A-4B70-9E94-4BC97E0D0BEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32 API's", "Win32 API's\Win32 API's.csproj", "{65646FC4-015D-44B3-AB42-6A693B318EE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{479AF4AF-204A-4B70-9E94-4BC97E0D0BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{479AF4AF-204A-4B70-9E94-4BC97E0D0BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{479AF4AF-204A-4B70-9E94-4BC97E0D0BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65646FC4-015D-44B3-AB42-6A693B318EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65646FC4-015D-44B3-AB42-6A693B318EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65646FC4-015D-44B3-AB42-6A693B318EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65646FC4-015D-44B3-AB42-6A693B318EE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

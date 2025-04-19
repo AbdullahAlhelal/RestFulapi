@@ -211,6 +211,7 @@ namespace Win32_API_s
             }
         }
 
+        
         static void ExcelSheetCreator() 
         {
             Office.Excel.Application excelApp = new Office.Excel.Application();
@@ -285,12 +286,54 @@ namespace Win32_API_s
             }
         }
 
+        static void CreatePowerPoint() 
+        {
+
+            Office.PowerPoint.Application pptApplication = new Office.PowerPoint.Application();
+
+            try
+            {
+                pptApplication.Visible = Microsoft.Office.Core.MsoTriState.msoTrue;
+                Office.PowerPoint.Presentations presentations = pptApplication.Presentations;
+                Office.PowerPoint.Presentation presentation = presentations.Add(Microsoft.Office.Core.MsoTriState.msoTrue);
+
+                // Add a slide
+                Office.PowerPoint.Slides slides = presentation.Slides;
+                Office.PowerPoint.Slide slide = slides.Add(1, Office.PowerPoint.PpSlideLayout.ppLayoutText);
+
+                // Set title
+                Office.PowerPoint.Shape titleShape = slide.Shapes[1];
+                titleShape.TextFrame.TextRange.Text = "Hello, PowerPoint!";
+
+                // Set subtitle
+                Office.PowerPoint.Shape bodyShape = slide.Shapes[2];
+                bodyShape.TextFrame.TextRange.Text = "Created using C#";
+
+                // Save the presentation
+                string filePath = @"C:\Temp\MyPresentation.pptx";
+                presentation.SaveAs(filePath, Office.PowerPoint.PpSaveAsFileType.ppSaveAsDefault, Microsoft.Office.Core.MsoTriState.msoTrue);
+                presentation.Close();
+                Console.WriteLine("Presentation created successfully at: " + filePath);
+                Console.ReadKey();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+            finally
+            {
+                pptApplication.Quit();
+            }
+        }
+
 
         static void Main()
         {
 
             CreateawordDocument();
             SendEmailViaOutLook();
+            CreatePowerPoint();
             // The path to the wallpaper image
             string wallpaperPath = @"C:\pics\newpic.jpg";
 

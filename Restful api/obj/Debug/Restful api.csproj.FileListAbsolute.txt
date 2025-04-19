@@ -5,3 +5,10 @@ D:\Trraining c#\Api\Restful api\Restful api\obj\Debug\Restful api.csproj.Assembl
 D:\Trraining c#\Api\Restful api\Restful api\obj\Debug\Restful api.csproj.CoreCompileInputs.cache
 D:\Trraining c#\Api\Restful api\Restful api\obj\Debug\Restful api.exe
 D:\Trraining c#\Api\Restful api\Restful api\obj\Debug\Restful api.pdb
+C:\Users\abdullah\Source\Repos\RestFulapi\Restful api\bin\Debug\Restful api.exe.config
+C:\Users\abdullah\Source\Repos\RestFulapi\Restful api\bin\Debug\Restful api.exe
+C:\Users\abdullah\Source\Repos\RestFulapi\Restful api\bin\Debug\Restful api.pdb
+C:\Users\abdullah\Source\Repos\RestFulapi\Restful api\obj\Debug\Restful api.csproj.AssemblyReference.cache
+C:\Users\abdullah\Source\Repos\RestFulapi\Restful api\obj\Debug\Restful api.csproj.CoreCompileInputs.cache
+C:\Users\abdullah\Source\Repos\RestFulapi\Restful api\obj\Debug\Restful api.exe
+C:\Users\abdullah\Source\Repos\RestFulapi\Restful api\obj\Debug\Restful api.pdb

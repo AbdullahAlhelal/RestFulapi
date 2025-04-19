@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Microsoft.Office.Core;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using  Office = Microsoft.Office.Interop;
 
 namespace Win32_API_s
 {
@@ -14,19 +16,19 @@ namespace Win32_API_s
         //Change Desktop Wallpaper
 
         // Import the SystemParametersInfo function from user32.dll
-        [DllImport("user32.dll" , CharSet = CharSet.Auto)]
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
         public static extern int SystemParametersInfo(
-            uint action , uint uParam , string vParam , uint winIni);
+            uint action, uint uParam, string vParam, uint winIni);
 
         // Constants for the function
         public static readonly uint SPI_SETDESKWALLPAPER = 0x14;
         public static readonly uint SPIF_UPDATEINIFILE = 0x01;
         public static readonly uint SPIF_SENDCHANGE = 0x02;
 
- 
+
         public static void SetWallpaper(string path)
         {
-            SystemParametersInfo(SPI_SETDESKWALLPAPER , 0 , path , SPIF_UPDATEINIFILE | SPIF_SENDCHANGE);
+            SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, path, SPIF_UPDATEINIFILE | SPIF_SENDCHANGE);
             Console.WriteLine("Wallpaper changed successfully!");
         }
 
@@ -40,7 +42,7 @@ namespace Win32_API_s
             int screenWidth = GetSystemMetrics(0);  // SM_CXSCREEN = 0
             int screenHeight = GetSystemMetrics(1); // SM_CYSCREEN = 1
 
-            Console.WriteLine("Screen Width: {0}, Screen Height: {1}" , screenWidth , screenHeight);
+            Console.WriteLine("Screen Width: {0}, Screen Height: {1}", screenWidth, screenHeight);
         }
         /// <summary>
         /// Battery Info
@@ -60,12 +62,12 @@ namespace Win32_API_s
         }
 
         // Import the GetSystemPowerStatus API from kernel32.dll
-        [DllImport("kernel32.dll" , SetLastError = true)]
+        [DllImport("kernel32.dll", SetLastError = true)]
         static extern bool GetSystemPowerStatus(out SYSTEM_POWER_STATUS sps);
-          
-            static string GetBatteryStatus(byte flag)
+
+        static string GetBatteryStatus(byte flag)
         {
-            switch ( flag )
+            switch (flag)
             {
                 case 1:
                     return "High, more than 66% charged";
@@ -81,25 +83,25 @@ namespace Win32_API_s
                     return "Unknown status";
                 default:
                     return "Battery status not detected";
-            } 
+            }
         }
 
         // Import MessageBox function from user32.dll
-        [DllImport("user32.dll" , CharSet = CharSet.Unicode , SetLastError = true)]
-        static extern int MessageBox(IntPtr hWnd , String text , String caption , int type);
+        [DllImport("user32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        static extern int MessageBox(IntPtr hWnd, String text, String caption, int type);
 
         //
         //Processes List
-       [DllImport("psapi.dll" , SetLastError = true)]
-        public static extern bool EnumProcesses([MarshalAs(UnmanagedType.LPArray , ArraySubType = UnmanagedType.U4)][In][Out] uint[] processIds , uint arraySizeBytes , out uint bytesReturned);
+        [DllImport("psapi.dll", SetLastError = true)]
+        public static extern bool EnumProcesses([MarshalAs(UnmanagedType.LPArray, ArraySubType = UnmanagedType.U4)][In][Out] uint[] processIds, uint arraySizeBytes, out uint bytesReturned);
 
-        [DllImport("psapi.dll" , SetLastError = true)]
-        public static extern bool GetProcessMemoryInfo(IntPtr hProcess , out PROCESS_MEMORY_COUNTERS counters , uint size);
+        [DllImport("psapi.dll", SetLastError = true)]
+        public static extern bool GetProcessMemoryInfo(IntPtr hProcess, out PROCESS_MEMORY_COUNTERS counters, uint size);
 
-        [DllImport("kernel32.dll" , SetLastError = true)]
-        public static extern IntPtr OpenProcess(uint processAccess , bool bInheritHandle , uint processId);
+        [DllImport("kernel32.dll", SetLastError = true)]
+        public static extern IntPtr OpenProcess(uint processAccess, bool bInheritHandle, uint processId);
 
-        [DllImport("kernel32.dll" , SetLastError = true)]
+        [DllImport("kernel32.dll", SetLastError = true)]
         public static extern bool CloseHandle(IntPtr hObject);
 
         [StructLayout(LayoutKind.Sequential)]
@@ -125,13 +127,14 @@ namespace Win32_API_s
         public class WifiScanner
         {
             [DllImport("Wlanapi.dll")]
-            private static extern uint WlanOpenHandle(uint dwClientVersion , IntPtr pReserved , out uint pdwNegotiatedVersion , out IntPtr phClientHandle);
+            private static extern uint WlanOpenHandle(uint dwClientVersion, IntPtr pReserved, out uint pdwNegotiatedVersion, out IntPtr phClientHandle);
 
             [DllImport("Wlanapi.dll")]
-            private static extern uint WlanEnumInterfaces(IntPtr hClientHandle , IntPtr pReserved , out IntPtr ppInterfaceList);
+            private static extern uint WlanEnumInterfaces(IntPtr hClientHandle, IntPtr pReserved, out IntPtr ppInterfaceList);
 
             [DllImport("Wlanapi.dll")]
-            private static extern uint WlanCloseHandle(IntPtr hClientHandle , IntPtr pReserved);
+            private static extern uint WlanCloseHandle(IntPtr hClientHandle, IntPtr pReserved);
+
 
             [DllImport("Wlanapi.dll")]
             private static extern uint WlanFreeMemory(IntPtr pMemory);
@@ -141,26 +144,26 @@ namespace Win32_API_s
             public WifiScanner()
             {
                 uint negotiatedVersion;
-                WlanOpenHandle(2 , IntPtr.Zero , out negotiatedVersion , out clientHandle);
+                WlanOpenHandle(2, IntPtr.Zero, out negotiatedVersion, out clientHandle);
             }
 
             ~WifiScanner()
             {
-                WlanCloseHandle(clientHandle , IntPtr.Zero);
+                WlanCloseHandle(clientHandle, IntPtr.Zero);
             }
 
             public List<string> GetAvailableNetworks()
             {
                 IntPtr interfaceList = IntPtr.Zero;
-                WlanEnumInterfaces(clientHandle , IntPtr.Zero , out interfaceList);
-                var listHeader = (WlanInterfaceInfoListHeader) Marshal.PtrToStructure(interfaceList , typeof(WlanInterfaceInfoListHeader));
+                WlanEnumInterfaces(clientHandle, IntPtr.Zero, out interfaceList);
+                var listHeader = (WlanInterfaceInfoListHeader)Marshal.PtrToStructure(interfaceList, typeof(WlanInterfaceInfoListHeader));
                 var wlanInterfaceInfo = new WlanInterfaceInfo[listHeader.dwNumberOfItems];
                 List<string> networkList = new List<string>();
 
-                for ( int i = 0 ; i < listHeader.dwNumberOfItems ; i++ )
+                for (int i = 0; i < listHeader.dwNumberOfItems; i++)
                 {
                     IntPtr interfaceInfoPtr = new IntPtr(interfaceList.ToInt64() + (i * Marshal.SizeOf(typeof(WlanInterfaceInfo))) + Marshal.SizeOf(typeof(int)));
-                    wlanInterfaceInfo[i] = (WlanInterfaceInfo) Marshal.PtrToStructure(interfaceInfoPtr , typeof(WlanInterfaceInfo));
+                    wlanInterfaceInfo[i] = (WlanInterfaceInfo)Marshal.PtrToStructure(interfaceInfoPtr, typeof(WlanInterfaceInfo));
                     networkList.Add(wlanInterfaceInfo[i].strProfileName);
                 }
 
@@ -175,17 +178,42 @@ namespace Win32_API_s
                 public uint dwIndex;
             }
 
-            [StructLayout(LayoutKind.Sequential , CharSet = CharSet.Unicode)]
+            [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Unicode)]
             private struct WlanInterfaceInfo
             {
                 public Guid InterfaceGuid;
-                [MarshalAs(UnmanagedType.ByValTStr , SizeConst = 256)]
+                [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 256)]
                 public string strProfileName;
+            }
+        }
+
+
+        //Send Email Via OutLook
+        static void SendEmailViaOutLook()
+        {
+            try
+            {
+                Office.Outlook.Application outlookApp = new Office.Outlook.Application();
+                Office.Outlook.MailItem mailItem = (Office.Outlook.MailItem)outlookApp.CreateItem(Office.Outlook.OlItemType.olMailItem);
+                mailItem.Subject = "Test Email from C#";
+                mailItem.To = "abdullah.h@alameensoft.com";  // Change this to the actual recipient's email address
+                mailItem.Body = "Hello, this is a test email sent from a C# application using Outlook Interop.";
+                mailItem.Importance = Office.Outlook.OlImportance.olImportanceHigh;
+                mailItem.Display(false);  // Set to true to display the email before sending
+                mailItem.Send();
+                Console.WriteLine("Email sent successfully!");
+                Console.ReadKey();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
             }
         }
 
         static void Main()
         {
+            SendEmailViaOutLook();
             // The path to the wallpaper image
             string wallpaperPath = @"C:\pics\newpic.jpg";
 
@@ -193,47 +221,47 @@ namespace Win32_API_s
             //SetWallpaper(wallpaperPath);
             Console.ReadKey();
 
-                if ( GetSystemPowerStatus(out SYSTEM_POWER_STATUS status) )
-                {
-                    Console.WriteLine("Battery Information:");
-                    Console.WriteLine("AC Line Status: " + (status.ACLineStatus == 0 ? "Offline" : "Online"));
-                    Console.WriteLine("Battery Charge Status: " + GetBatteryStatus(status.BatteryFlag));
-                    Console.WriteLine("Battery Life Percent: " + (status.BatteryLifePercent == 255 ? "Unknown" : status.BatteryLifePercent + "%"));
-                    Console.WriteLine("Battery Life Remaining: " + (status.BatteryLifeTime == -1 ? "Unknown" : status.BatteryLifeTime + " seconds"));
-                    Console.WriteLine("Full Battery Lifetime: " + (status.BatteryFullLifeTime == -1 ? "Unknown" : status.BatteryFullLifeTime + " seconds"));
-                }
-                else
-                {
-                    Console.WriteLine("Unable to get battery status.");
-                }
+            if (GetSystemPowerStatus(out SYSTEM_POWER_STATUS status))
+            {
+                Console.WriteLine("Battery Information:");
+                Console.WriteLine("AC Line Status: " + (status.ACLineStatus == 0 ? "Offline" : "Online"));
+                Console.WriteLine("Battery Charge Status: " + GetBatteryStatus(status.BatteryFlag));
+                Console.WriteLine("Battery Life Percent: " + (status.BatteryLifePercent == 255 ? "Unknown" : status.BatteryLifePercent + "%"));
+                Console.WriteLine("Battery Life Remaining: " + (status.BatteryLifeTime == -1 ? "Unknown" : status.BatteryLifeTime + " seconds"));
+                Console.WriteLine("Full Battery Lifetime: " + (status.BatteryFullLifeTime == -1 ? "Unknown" : status.BatteryFullLifeTime + " seconds"));
+            }
+            else
+            {
+                Console.WriteLine("Unable to get battery status.");
+            }
 
-            MessageBox(IntPtr.Zero , "Hello, World!" , "My Message Box" , 0);
+            MessageBox(IntPtr.Zero, "Hello, World!", "My Message Box", 0);
 
             ///  PROCESS list
             uint[] processIds = new uint[1024];
             uint bytesReturned;
 
-            if ( EnumProcesses(processIds , (uint) processIds.Length * sizeof(uint) , out bytesReturned) )
+            if (EnumProcesses(processIds, (uint)processIds.Length * sizeof(uint), out bytesReturned))
             {
-                Console.WriteLine("Number of processes: {0}" , bytesReturned / sizeof(uint));
+                Console.WriteLine("Number of processes: {0}", bytesReturned / sizeof(uint));
 
-                for ( int i = 0 ; i < bytesReturned / sizeof(uint) ; i++ )
+                for (int i = 0; i < bytesReturned / sizeof(uint); i++)
                 {
                     uint pid = processIds[i];
-                    IntPtr processHandle = OpenProcess(PROCESS_QUERY_INFORMATION | PROCESS_VM_READ , false , pid);
+                    IntPtr processHandle = OpenProcess(PROCESS_QUERY_INFORMATION | PROCESS_VM_READ, false, pid);
 
-                    if ( processHandle != IntPtr.Zero )
+                    if (processHandle != IntPtr.Zero)
                     {
                         PROCESS_MEMORY_COUNTERS memCounters;
-                        if ( GetProcessMemoryInfo(processHandle , out memCounters , (uint) Marshal.SizeOf(typeof(PROCESS_MEMORY_COUNTERS))) )
+                        if (GetProcessMemoryInfo(processHandle, out memCounters, (uint)Marshal.SizeOf(typeof(PROCESS_MEMORY_COUNTERS))))
                         {
                             string processName = "Unknown";
                             try
                             {
-                                Process proc = Process.GetProcessById((int) pid);
+                                Process proc = Process.GetProcessById((int)pid);
                                 processName = proc.ProcessName;
                             }
-                            catch ( Exception )
+                            catch (Exception)
                             {
                                 // Process might have exited or access denied
                             }
@@ -249,11 +277,11 @@ namespace Win32_API_s
             {
                 Console.WriteLine("Failed to enumerate processes.");
             }
-         
+
 
             var wifiScanner = new WifiScanner();
             var networks = wifiScanner.GetAvailableNetworks();
-            foreach ( var network in networks )
+            foreach (var network in networks)
             {
                 Console.WriteLine($"SSID: {network}");
             }

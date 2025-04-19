@@ -5,3 +5,11 @@ D:\Trraining c#\Api\Restful api\Win32 API's\obj\Debug\Win32 API's.csproj.Assembl
 D:\Trraining c#\Api\Restful api\Win32 API's\obj\Debug\Win32 API's.csproj.CoreCompileInputs.cache
 D:\Trraining c#\Api\Restful api\Win32 API's\obj\Debug\Win32 API's.exe
 D:\Trraining c#\Api\Restful api\Win32 API's\obj\Debug\Win32 API's.pdb
+C:\Users\abdullah\Source\Repos\RestFulapi\Win32 API's\bin\Debug\Win32 API's.exe.config
+C:\Users\abdullah\Source\Repos\RestFulapi\Win32 API's\bin\Debug\Win32 API's.exe
+C:\Users\abdullah\Source\Repos\RestFulapi\Win32 API's\bin\Debug\Win32 API's.pdb
+C:\Users\abdullah\Source\Repos\RestFulapi\Win32 API's\obj\Debug\Win32 API's.csproj.AssemblyReference.cache
+C:\Users\abdullah\Source\Repos\RestFulapi\Win32 API's\obj\Debug\Win32 API's.csproj.CoreCompileInputs.cache
+C:\Users\abdullah\Source\Repos\RestFulapi\Win32 API's\obj\Debug\Win32 API's.exe
+C:\Users\abdullah\Source\Repos\RestFulapi\Win32 API's\obj\Debug\Win32 API's.pdb
+C:\Users\abdullah\Source\Repos\RestFulapi\Win32 API's\obj\Debug\Win32 API's.csproj.ResolveComReference.cache

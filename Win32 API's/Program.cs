@@ -6,7 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using  Office = Microsoft.Office.Interop;
+using Office = Microsoft.Office.Interop;
 
 namespace Win32_API_s
 {
@@ -211,8 +211,41 @@ namespace Win32_API_s
             }
         }
 
+        static void CreateawordDocument()
+        {
+            Office.Word.Application wordApp = new Office.Word.Application();
+            try
+            {
+                wordApp.Visible = false;  // Set to true if you want to see Word while the document is being created
+
+                Office.Word.Document doc = wordApp.Documents.Add();  // Create a new document
+                Office.Word.Paragraph para = doc.Paragraphs.Add();   // Add a paragraph
+                para.Range.Text = "Hi, My Name is Mohammed Abu-Hadhoud";  // Your name goes here
+
+                // Save the document
+                string filepath = @"C:\Temp\MyDocument.docx";  // Change the path as needed
+                doc.SaveAs2(filepath);
+                doc.Close();
+
+                Console.WriteLine("Document created successfully at: " + filepath);
+                Console.ReadKey();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+            finally
+            {
+                wordApp.Quit();  // Close Word application
+            }
+        }
+
+
         static void Main()
         {
+
+            CreateawordDocument();
             SendEmailViaOutLook();
             // The path to the wallpaper image
             string wallpaperPath = @"C:\pics\newpic.jpg";

@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{65646FC4-015D-44B3-AB42-6A693B318EE1}|Win32 API\u0027s\\Win32 API\u0027s.csproj|solutionrelative:win32 api\u0027s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdullah\\Downloads\\OutlookEmailSender\\OutlookEmailSender\\OutlookEmailSender\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdullah\\Downloads\\WordDocumentCreator\\WordDocumentCreator\\WordDocumentCreator\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -159,13 +159,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\abdullah\\Downloads\\OutlookEmailSender\\OutlookEmailSender\\OutlookEmailSender\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\OutlookEmailSender\\OutlookEmailSender\\OutlookEmailSender\\Program.cs",
-              "ToolTip": "C:\\Users\\abdullah\\Downloads\\OutlookEmailSender\\OutlookEmailSender\\OutlookEmailSender\\Program.cs",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\OutlookEmailSender\\OutlookEmailSender\\OutlookEmailSender\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\abdullah\\Downloads\\WordDocumentCreator\\WordDocumentCreator\\WordDocumentCreator\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\WordDocumentCreator\\WordDocumentCreator\\WordDocumentCreator\\Program.cs",
+              "ToolTip": "C:\\Users\\abdullah\\Downloads\\WordDocumentCreator\\WordDocumentCreator\\WordDocumentCreator\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\WordDocumentCreator\\WordDocumentCreator\\WordDocumentCreator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T11:09:33.323Z",
+              "WhenOpened": "2025-04-19T13:40:01.133Z",
               "EditorCaption": ""
             },
             {
@@ -174,9 +174,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\abdullah\\source\\repos\\RestFulapi\\Win32 API\u0027s\\Program.cs",
               "RelativeDocumentMoniker": "Win32 API\u0027s\\Program.cs",
-              "ToolTip": "C:\\Users\\abdullah\\source\\repos\\RestFulapi\\Win32 API\u0027s\\Program.cs",
-              "RelativeToolTip": "Win32 API\u0027s\\Program.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAYwOIAAABiAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\abdullah\\source\\repos\\RestFulapi\\Win32 API\u0027s\\Program.cs*",
+              "RelativeToolTip": "Win32 API\u0027s\\Program.cs*",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAwwPAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T10:42:38.519Z",
               "EditorCaption": ""

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentDataAccessLayer
-build_property.ProjectDir = C:\Users\Abdullah\Downloads\Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\
+build_property.ProjectDir = D:\Trraining c#\Api\Restful api\01 StudentAPIServer with DB\StudentDataAccessLayer\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

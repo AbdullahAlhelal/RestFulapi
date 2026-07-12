@@ -12,3 +12,10 @@ C:\Users\abdullah\Source\Repos\RestFulapi\Restful api\obj\Debug\Restful api.cspr
 C:\Users\abdullah\Source\Repos\RestFulapi\Restful api\obj\Debug\Restful api.csproj.CoreCompileInputs.cache
 C:\Users\abdullah\Source\Repos\RestFulapi\Restful api\obj\Debug\Restful api.exe
 C:\Users\abdullah\Source\Repos\RestFulapi\Restful api\obj\Debug\Restful api.pdb
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Restful api\bin\Debug\Restful api.exe.config
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Restful api\bin\Debug\Restful api.exe
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Restful api\bin\Debug\Restful api.pdb
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Restful api\obj\Debug\Restful api.csproj.AssemblyReference.cache
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Restful api\obj\Debug\Restful api.csproj.CoreCompileInputs.cache
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Restful api\obj\Debug\Restful api.exe
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Restful api\obj\Debug\Restful api.pdb

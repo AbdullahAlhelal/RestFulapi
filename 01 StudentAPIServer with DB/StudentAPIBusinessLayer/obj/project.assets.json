@@ -1714,26 +1714,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Abdullah\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\abdullah\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abdullah\\Downloads\\Student API Project With DB\\01 StudentAPIServer with DB\\StudentAPIBusinessLayer\\StudentAPIBusinessLayer.csproj",
+      "projectUniqueName": "D:\\TR\\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\\RestFulapi\\01 StudentAPIServer with DB\\StudentAPIBusinessLayer\\StudentAPIBusinessLayer.csproj",
       "projectName": "StudentAPIBusinessLayer",
-      "projectPath": "C:\\Users\\Abdullah\\Downloads\\Student API Project With DB\\01 StudentAPIServer with DB\\StudentAPIBusinessLayer\\StudentAPIBusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abdullah\\Downloads\\Student API Project With DB\\01 StudentAPIServer with DB\\StudentAPIBusinessLayer\\obj\\",
+      "projectPath": "D:\\TR\\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\\RestFulapi\\01 StudentAPIServer with DB\\StudentAPIBusinessLayer\\StudentAPIBusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\abdullah\\.nuget\\packages\\",
+      "outputPath": "D:\\TR\\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\\RestFulapi\\01 StudentAPIServer with DB\\StudentAPIBusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+        "C:\\Users\\abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1742,15 +1741,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Abdullah\\Downloads\\Student API Project With DB\\01 StudentAPIServer with DB\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Abdullah\\Downloads\\Student API Project With DB\\01 StudentAPIServer with DB\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj"
+            "D:\\TR\\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\\RestFulapi\\01 StudentAPIServer with DB\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj": {
+              "projectPath": "D:\\TR\\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\\RestFulapi\\01 StudentAPIServer with DB\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj"
             }
           }
         }
@@ -1764,7 +1762,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1785,7 +1784,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FFDO0kmHB9HTDfbLw1OTGX7V/yS2O5NefTbDGpsY7swpg09XIdqpuOeby8y88P/+EkXTJKBEWyPxHBPcFGt6+A==",
+  "success": true,
+  "projectFilePath": "D:\\Dropbox\\Personal\\Advices\\2021\\25 Web\\05 RESTFul API\\00 Introduction - Course Orientation (Continuation Mode)\\02 StudentApiClient v7\\02 StudentApiClient v7\\StudentApiClient\\StudentApiClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LEGION\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

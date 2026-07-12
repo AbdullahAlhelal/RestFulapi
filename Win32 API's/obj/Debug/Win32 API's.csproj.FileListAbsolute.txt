@@ -13,3 +13,11 @@ C:\Users\abdullah\Source\Repos\RestFulapi\Win32 API's\obj\Debug\Win32 API's.cspr
 C:\Users\abdullah\Source\Repos\RestFulapi\Win32 API's\obj\Debug\Win32 API's.exe
 C:\Users\abdullah\Source\Repos\RestFulapi\Win32 API's\obj\Debug\Win32 API's.pdb
 C:\Users\abdullah\Source\Repos\RestFulapi\Win32 API's\obj\Debug\Win32 API's.csproj.ResolveComReference.cache
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Win32 API's\bin\Debug\Win32 API's.exe.config
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Win32 API's\bin\Debug\Win32 API's.exe
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Win32 API's\bin\Debug\Win32 API's.pdb
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Win32 API's\obj\Debug\Win32 API's.csproj.AssemblyReference.cache
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Win32 API's\obj\Debug\Win32 API's.csproj.ResolveComReference.cache
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Win32 API's\obj\Debug\Win32 API's.csproj.CoreCompileInputs.cache
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Win32 API's\obj\Debug\Win32 API's.exe
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\Win32 API's\obj\Debug\Win32 API's.pdb

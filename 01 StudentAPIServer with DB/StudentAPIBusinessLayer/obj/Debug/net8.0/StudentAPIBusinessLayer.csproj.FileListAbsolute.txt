@@ -43,3 +43,19 @@ D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05
 D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\refint\StudentAPIBusinessLayer.dll
 D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.pdb
 D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\ref\StudentAPIBusinessLayer.dll
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentAPIBusinessLayer.deps.json
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentAPIBusinessLayer.dll
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentAPIBusinessLayer.pdb
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentDataAccessLayer.dll
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.csproj.AssemblyReference.cache
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.AssemblyInfoInputs.cache
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.AssemblyInfo.cs
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.csproj.CoreCompileInputs.cache
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.sourcelink.json
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentA.BCA95842.Up2Date
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.dll
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\refint\StudentAPIBusinessLayer.dll
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\StudentAPIBusinessLayer.pdb
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentAPIBusinessLayer\obj\Debug\net8.0\ref\StudentAPIBusinessLayer.dll

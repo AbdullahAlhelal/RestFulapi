@@ -34,3 +34,16 @@ D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05
 D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\refint\StudentDataAccessLayer.dll
 D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.pdb
 D:\Dropbox\Personal\Advices\2021\25 Web\WebAPI Course\01 WebAPI\13 Final CRUD\05 Student API Project With DB\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\ref\StudentDataAccessLayer.dll
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.deps.json
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.dll
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.AssemblyReference.cache
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfoInputs.cache
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.AssemblyInfo.cs
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.sourcelink.json
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.dll
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\refint\StudentDataAccessLayer.dll
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\StudentDataAccessLayer.pdb
+D:\TR\Secure Your APIs JWT, Roles & Policies in ASP.NET Core\RestFulapi\01 StudentAPIServer with DB\StudentDataAccessLayer\obj\Debug\net8.0\ref\StudentDataAccessLayer.dll

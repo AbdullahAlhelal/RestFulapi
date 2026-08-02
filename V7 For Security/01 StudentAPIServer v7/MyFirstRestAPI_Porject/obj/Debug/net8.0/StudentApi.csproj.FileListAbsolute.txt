@@ -143,3 +143,40 @@ D:\Dropbox\Personal\Advices\2021\25 Web\05 RESTFul API\00 Introduction - Course 
 D:\Dropbox\Personal\Advices\2021\25 Web\05 RESTFul API\00 Introduction - Course Orientation (Continuation Mode)\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
 D:\Dropbox\Personal\Advices\2021\25 Web\05 RESTFul API\00 Introduction - Course Orientation (Continuation Mode)\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.genruntimeconfig.cache
 D:\Dropbox\Personal\Advices\2021\25 Web\05 RESTFul API\00 Introduction - Course Orientation (Continuation Mode)\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\ref\StudentApi.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\appsettings.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.staticwebassets.endpoints.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.exe
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.deps.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.runtimeconfig.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\StudentApi.pdb
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.AssemblyReference.cache
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfoInputs.cache
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.AssemblyInfo.cs
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.sourcelink.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\scopedcss\bundle\StudentApi.styles.css
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.csproj.Up2Date
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\refint\StudentApi.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.genruntimeconfig.cache
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\ref\StudentApi.dll

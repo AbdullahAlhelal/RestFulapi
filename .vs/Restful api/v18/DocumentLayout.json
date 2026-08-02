@@ -1,12 +1,31 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\TR\\Secure Your APIs JWT, Roles \u0026 Policies in ASP.NET Core\\RestFulapi\\",
+  "WorkspaceRootPath": "C:\\Users\\Abdullah\\source\\repos\\RestFulapi\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

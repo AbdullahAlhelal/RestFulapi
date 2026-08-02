@@ -428,23 +428,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LEGION\\.nuget\\packages\\": {},
+    "C:\\Users\\Abdullah\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dropbox\\Personal\\Advices\\2021\\25 Web\\05 RESTFul API\\00 Introduction - Course Orientation (Continuation Mode)\\01 StudentAPIServer v7\\MyFirstRestAPI_Porject\\StudentApi.csproj",
+      "projectUniqueName": "C:\\Users\\Abdullah\\source\\repos\\RestFulapi\\V7 For Security\\01 StudentAPIServer v7\\MyFirstRestAPI_Porject\\StudentApi.csproj",
       "projectName": "StudentApi",
-      "projectPath": "D:\\Dropbox\\Personal\\Advices\\2021\\25 Web\\05 RESTFul API\\00 Introduction - Course Orientation (Continuation Mode)\\01 StudentAPIServer v7\\MyFirstRestAPI_Porject\\StudentApi.csproj",
-      "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-      "outputPath": "D:\\Dropbox\\Personal\\Advices\\2021\\25 Web\\05 RESTFul API\\00 Introduction - Course Orientation (Continuation Mode)\\01 StudentAPIServer v7\\MyFirstRestAPI_Porject\\obj\\",
+      "projectPath": "C:\\Users\\Abdullah\\source\\repos\\RestFulapi\\V7 For Security\\01 StudentAPIServer v7\\MyFirstRestAPI_Porject\\StudentApi.csproj",
+      "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Abdullah\\source\\repos\\RestFulapi\\V7 For Security\\01 StudentAPIServer v7\\MyFirstRestAPI_Porject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -466,7 +466,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -496,7 +502,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

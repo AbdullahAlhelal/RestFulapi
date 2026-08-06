@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "V9gDHC91DHw=",
+  "dgSpecHash": "pwotzrZF1t0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Abdullah\\source\\repos\\RestFulapi\\V7 For Security\\01 StudentAPIServer v7\\MyFirstRestAPI_Porject\\StudentApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Abdullah\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\Abdullah\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Abdullah\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Abdullah\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

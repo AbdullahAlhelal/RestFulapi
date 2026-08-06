@@ -180,3 +180,4 @@ C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7
 C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.pdb
 C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.genruntimeconfig.cache
 C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\ref\StudentApi.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\BCrypt-Net-Next.dll

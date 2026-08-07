@@ -1,11 +1,15 @@
-using Microsoft.AspNetCore.Mvc; 
-using StudentApi.Models;
-using StudentApi.DataSimulation;
-using System.Collections.Generic;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc; 
+using StudentApi.DataSimulation;
+using StudentApi.Models;
+using System.Collections.Generic;
 
 namespace StudentApi.Controllers 
 {
+    
+    
+    [Authorize]
     [ApiController] // Marks the class as a Web API controller with enhanced features.
   //  [Route("[controller]")] // Sets the route for this controller to "students", based on the controller name.
     [Route("api/Students")]

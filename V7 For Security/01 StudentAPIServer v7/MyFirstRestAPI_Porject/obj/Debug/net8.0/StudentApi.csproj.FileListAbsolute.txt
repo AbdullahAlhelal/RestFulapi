@@ -181,3 +181,13 @@ C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7
 C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\StudentApi.genruntimeconfig.cache
 C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\obj\Debug\net8.0\ref\StudentApi.dll
 C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\BCrypt-Net-Next.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\01 StudentAPIServer v7\MyFirstRestAPI_Porject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

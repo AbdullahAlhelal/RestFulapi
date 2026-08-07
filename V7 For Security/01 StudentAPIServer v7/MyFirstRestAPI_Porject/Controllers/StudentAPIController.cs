@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using StudentApi.DataSimulation;
 using StudentApi.Models;
 using System.Collections.Generic;
+using System.Security.Claims;
 
 namespace StudentApi.Controllers 
 {
@@ -88,12 +89,16 @@ namespace StudentApi.Controllers
                 return BadRequest($"Not accepted ID {id}");
             }
 
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var student = StudentDataSimulation.StudentsList.FirstOrDefault(s => s.Id == id);
             if (student == null)
             {
                 return NotFound($"Student with ID {id} not found.");
             }
-
+            if (student.Id.ToString() != userId && !User.IsInRole("admin"))
+            {
+                return Forbid();
+            }
             return Ok(student);
         }
 

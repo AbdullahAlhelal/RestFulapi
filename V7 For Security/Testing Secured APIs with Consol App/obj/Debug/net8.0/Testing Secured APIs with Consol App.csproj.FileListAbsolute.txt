@@ -1,0 +1,43 @@
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.AssemblyInfoInputs.cache
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.AssemblyInfo.cs
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.csproj.CoreCompileInputs.cache
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.exe
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.deps.json
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.runtimeconfig.json
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.dll
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.pdb
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.dll
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\obj\Debug\net8.0\refint\Testing Secured APIs with Consol App.dll
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.pdb
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.genruntimeconfig.cache
+D:\Original Projects\Authentication\05 Testing Secured APIs with Consol App\Testing Secured APIs with Consol App\obj\Debug\net8.0\ref\Testing Secured APIs with Consol App.dll
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.exe
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.deps.json
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.runtimeconfig.json
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.dll
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.pdb
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.AssemblyInfoInputs.cache
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.AssemblyInfo.cs
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.csproj.CoreCompileInputs.cache
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.dll
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\obj\Debug\net8.0\refint\Testing Secured APIs with Consol App.dll
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.pdb
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.genruntimeconfig.cache
+D:\Original Projects\Authentication\05 Testing Secured APIs with Console App\Testing Secured APIs with Consol App\obj\Debug\net8.0\ref\Testing Secured APIs with Consol App.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.exe
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.deps.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.runtimeconfig.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\bin\Debug\net8.0\Testing Secured APIs with Consol App.pdb
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.AssemblyInfoInputs.cache
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.AssemblyInfo.cs
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.sourcelink.json
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\obj\Debug\net8.0\refint\Testing Secured APIs with Consol App.dll
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.pdb
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\obj\Debug\net8.0\Testing Secured APIs with Consol App.genruntimeconfig.cache
+C:\Users\Abdullah\source\repos\RestFulapi\V7 For Security\Testing Secured APIs with Consol App\obj\Debug\net8.0\ref\Testing Secured APIs with Consol App.dll

@@ -17,7 +17,7 @@ namespace StudentApi.Controllers
     public class StudentsController : ControllerBase // Declare the controller class inheriting from ControllerBase.
     {
 
-        
+        [Authorize(Roles ="admin")]
         [HttpGet("All", Name ="GetAllStudents")] // Marks this method to respond to HTTP GET requests.
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -32,7 +32,7 @@ namespace StudentApi.Controllers
             }
             return Ok(StudentDataSimulation.StudentsList); // Returns the list of students.
         }
-
+        [AllowAnonymous]
         [HttpGet("Passed",Name = "GetPassedStudents")]
 
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -53,7 +53,7 @@ namespace StudentApi.Controllers
 
             return Ok(passedStudents); // Return the list of students who passed.
         }
-
+        [AllowAnonymous]
         [HttpGet("AverageGrade", Name = "GetAverageGrade")]
 
         [ProducesResponseType(StatusCodes.Status200OK)]

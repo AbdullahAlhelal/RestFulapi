@@ -1,25 +1,25 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc; 
+using Microsoft.AspNetCore.Mvc;
 using StudentApi.DataSimulation;
 using StudentApi.Models;
 using System.Collections.Generic;
 using System.Security.Claims;
 
-namespace StudentApi.Controllers 
+namespace StudentApi.Controllers
 {
-    
-    
+
+
     [Authorize]
     [ApiController] // Marks the class as a Web API controller with enhanced features.
-  //  [Route("[controller]")] // Sets the route for this controller to "students", based on the controller name.
+                    //  [Route("[controller]")] // Sets the route for this controller to "students", based on the controller name.
     [Route("api/Students")]
 
     public class StudentsController : ControllerBase // Declare the controller class inheriting from ControllerBase.
     {
 
-        [Authorize(Roles ="admin")]
-        [HttpGet("All", Name ="GetAllStudents")] // Marks this method to respond to HTTP GET requests.
+        [Authorize(Roles = "admin")]
+        [HttpGet("All", Name = "GetAllStudents")] // Marks this method to respond to HTTP GET requests.
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
@@ -27,14 +27,14 @@ namespace StudentApi.Controllers
         {
             //StudentDataSimulation.StudentsList.Clear();
 
-            if (StudentDataSimulation.StudentsList.Count == 0) 
+            if (StudentDataSimulation.StudentsList.Count == 0)
             {
                 return NotFound("No Students Found!");
             }
             return Ok(StudentDataSimulation.StudentsList); // Returns the list of students.
         }
         [AllowAnonymous]
-        [HttpGet("Passed",Name = "GetPassedStudents")]
+        [HttpGet("Passed", Name = "GetPassedStudents")]
 
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -63,7 +63,7 @@ namespace StudentApi.Controllers
         public ActionResult<double> GetAverageGrade()
         {
 
-         //   StudentDataSimulation.StudentsList.Clear();
+            //   StudentDataSimulation.StudentsList.Clear();
 
             if (StudentDataSimulation.StudentsList.Count == 0)
             {
@@ -76,34 +76,38 @@ namespace StudentApi.Controllers
 
 
         [HttpGet("{id}", Name = "GetStudentById")]
-        
+
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-        public ActionResult<Student> GetStudentById(int id)
+
+        public async Task<ActionResult<Student>> GetStudentById(
+                                                                int id,
+                                                                [FromServices] IAuthorizationService authorizationService)
         {
-
             if (id < 1)
-            {
-                return BadRequest($"Not accepted ID {id}");
-            }
+                return BadRequest("Invalid student id.");
 
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var student = StudentDataSimulation.StudentsList.FirstOrDefault(s => s.Id == id);
+            var student = StudentDataSimulation.StudentsList
+                .FirstOrDefault(s => s.Id == id);
+
             if (student == null)
-            {
-                return NotFound($"Student with ID {id} not found.");
-            }
-            if (student.Id.ToString() != userId && !User.IsInRole("admin"))
-            {
-                return Forbid();
-            }
+                return NotFound("Student not found.");
+
+            var authResult = await authorizationService.AuthorizeAsync(
+                User,
+                id,
+                "StudentOwnerOrAdmin");
+
+            if (!authResult.Succeeded)
+                return Forbid(); // 403
+
             return Ok(student);
         }
 
         //for add new we use Http Post
-        
+
         [HttpPost(Name = "AddStudent")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -117,7 +121,7 @@ namespace StudentApi.Controllers
 
             newStudent.Id = StudentDataSimulation.StudentsList.Count > 0 ? StudentDataSimulation.StudentsList.Max(s => s.Id) + 1 : 1;
             StudentDataSimulation.StudentsList.Add(newStudent);
-            
+
             //we dont return Ok here,we return createdAtRoute: this will be status code 201 created.
             return CreatedAtRoute("GetStudentById", new { id = newStudent.Id }, newStudent);
 

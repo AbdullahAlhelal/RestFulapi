@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using System.Text;
 using Microsoft.OpenApi.Models;
+using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -50,7 +51,12 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-builder.Services.AddAuthorization();
+builder.Services.AddAuthorization((options =>
+{
+    options.AddPolicy("StudentOwnerOrAdmin", policy =>
+        policy.Requirements.Add(new StudentOwnerOrAdminRequirement()));
+}));
+builder.Services.AddSingleton<IAuthorizationHandler, StudentOwnerOrAdminHandler>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
